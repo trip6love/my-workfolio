@@ -1,9 +1,9 @@
 import React from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
+import About from "./components/About.js";
+import Contact from "./components/Contact.js";
+import Navbar from "./components/Navbar.js";
+import Projects from "./components/Projects.js";
+import Footer from "./components/Footer.js";
 // import "./App.css"; //
 
 
@@ -20,16 +20,14 @@ function App() {
     if (currentPage === 'Contact') {
       return <Contact />
     }
-    if (currentPage === 'Resume') {
-      return <Resume />
-    }
+    
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
-      <Header />
+      <Head />
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />
