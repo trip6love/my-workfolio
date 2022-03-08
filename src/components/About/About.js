@@ -1,4 +1,4 @@
-import pic from "../../assets/jaw.JPG";
+import pic from "./src/assets/images/error.png";
 
 function About() {
     return (
