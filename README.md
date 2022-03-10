@@ -7,4 +7,4 @@ This is my most recent worked all compiled into a new portfolio using react! The
 
 # Deployed Portfolio
 
-[Portfolio]
+[Portfolio](https://trip6love.github.io/my-workfolio/)
