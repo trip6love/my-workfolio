@@ -31,7 +31,7 @@ function App() {
       <Head />
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-      <Footer />
+      <Footer /> 
     </div>
   );
 }
