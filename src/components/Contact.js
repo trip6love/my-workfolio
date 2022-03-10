@@ -54,7 +54,7 @@ function Contact() {
     
         <div className="container-contact">
             <form className = "form">
-            <h1 className="contact-header">Reach Out </h1>
+            <h1 className="contact-header">Loading . . . </h1>
                 <p className="input-label">Name: </p>
                 <input className="input-form"
                 value={name}

@@ -1,6 +1,6 @@
 import hubpic from "../assets/images/hub.png" ;
 import linkpic from "../assets/images/link.png";
-import stackpic from "../assets/images/stack.jpg";
+import stackpic from "../assets/images/stack.png";
 
 function Footer()  {
     return(
