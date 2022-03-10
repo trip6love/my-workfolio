@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import '../../../src/App.css';
-import { validateEmail } from '../../utils/helpers';
+// import '../../../src/App.css'; //
+import validateEmail  from '../utils/helpers';
+
 
 function Contact() {
     const [email, Email] = useState('');
@@ -9,6 +10,7 @@ function Contact() {
     const [blurNameMessage, BlurNameMessage] = useState('');
     const [blurEmailMessage, BlurEmailMessage] = useState('');
     const [blurMessage, BlurMessage] = useState('');
+    const [errorMessage, ErrorMessage] = useState('');
 
     const InputChange = (event) => {
         const { target } = event;
@@ -40,7 +42,7 @@ function Contact() {
         event.preventDefault();
 
         if(!validateEmail(email)) {
-            errorMessage('Email address is invalid.');
+            ErrorMessage('Email address is invalid.');
             return;
         };
         Name('');

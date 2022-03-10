@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from 'react';
 import About from "./components/About.js";
 import Contact from "./components/Contact.js";
 import Navbar from "./components/Navbar.js";
 import Projects from "./components/Projects.js";
 import Footer from "./components/Footer.js";
 import Head from './components/Head.js';
-// import "./App.css"; //
+ // import "./App.css"; //
 
 
 function App() {

@@ -1,1 +1,18 @@
+body {
+  background-color: rgba(red, green, rgb(51, 110, 45), alpha);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+  align-self: center;
+  font-size: 8vw;
+  border: 2.7px solid;
+  border-radius: 5px;
+  padding: .5vw 25vw;
+  background: rgb(51, 110, 45);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+}
 

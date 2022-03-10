@@ -1,4 +1,4 @@
-import pic from "./src/assets/images/error.png";
+import pic from "../assets/images/error.png";
 
 function About() {
     return (
@@ -6,7 +6,7 @@ function About() {
             <h1 className="about-header">About Me</h1>
                 <div className="about">
                     <img 
-                        alt="Error Profile Picture" 
+                        alt="Error Profile" 
                         src={pic} className="picture"
                     ></img>
             <p className="about-text">Hello! My name is Lane Byers and I am currently enrolled at the UNC Coding Bootcamp. 
