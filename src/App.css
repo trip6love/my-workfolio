@@ -130,9 +130,11 @@ body {
 .nav {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-evenly;
   font-size: 3vw;
-  margin: 1vw 8vw;
+  margin: 25px 50px 0px 25px; 
+  
+  
 }
 
 .nav-item {
@@ -142,6 +144,7 @@ body {
   border-radius: 8px;
   border-style: outset;
   padding: 4px;
+  
 }
 
 .nav-item-active {
@@ -200,4 +203,41 @@ body {
 .ahref {
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 768px) { 
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #18d14d;
+    
+  }
+  
+  
+  
+  .input-form {
+    margin-top: 0;
+    box-shadow: 0 8px 16px 0 rgba(4, 241, 4, 0.562), 0 6px 20px 0 rgba(5, 255, 5, 0.623);
+    border: .5vw solid #18d14d;
+    border-radius: 2px;
+    font-size: 15px;
+    outline: none;
+    font-family: 'DotGothic16', sans-serif;
+  }
+  
+  .input-label {
+    font-size: 20px;
+  }
+  
+  .btn {
+    font-family: 'DotGothic16', sans-serif;
+    margin: 2vh;
+    font-size: 2vh;
+    border: 0.3vh solid #18d14d;
+    border-radius: 2px;
+    background-color: #18d14d;
+    box-shadow: 0 8px 16px 0 rgba(28, 226, 21, 0.308), 0 6px 20px 0 rgba(10, 255, 1, 0.404);
+    text-shadow: 3px 3px rgb(108, 95, 110);
+  }
 }
