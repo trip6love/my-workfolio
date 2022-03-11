@@ -18,10 +18,10 @@ body {
 
 @keyframes example {
   0%   {left:0px; top:0px; }
-  25%  { left:1000px; top:0px; }
-  50%  { left:-1000px; top:0px;}
-  75%  {left:1000px; top:0px; }
-  100% {left:0px; top:0px;transform: rotateY(360deg)}
+  25%  { left:800px; top:0px; }
+  50%  { left:-800px; top:0px;}
+  75%  {left:800px; top:0px; }
+  100% {left:0px; top:0px;transform: rotateY(720deg)}
 }
 
 .contact-header {
@@ -30,7 +30,7 @@ body {
   animation-iteration-count: 20;
   position: relative;
   animation-name: example;
-  animation-duration: 15s;
+  animation-duration: 25s;
   
 }
 
