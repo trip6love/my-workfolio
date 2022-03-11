@@ -10,31 +10,37 @@ body {
 .contact-header {
   display: flex;
   justify-content: center;
-  font-size: 4vw;
+  font-size: 35px;
   text-align: center;
   color: #18d14d;
   text-underline-offset: 1.3vh;
 }
 
 @keyframes example {
-  0%   {left:0px; top:0px;}
-  25%  { left:1000px; top:0px;}
+  0%   {left:0px; top:0px; }
+  25%  { left:1000px; top:0px; }
   50%  { left:-1000px; top:0px;}
-  75%  {left:1000px; top:0px;}
-  100% {left:0px; top:0px;}
+  75%  {left:1000px; top:0px; }
+  100% {left:0px; top:0px;transform: rotateY(360deg)}
 }
+
 .contact-header {
   width: 300px;
   height: 100px;
   animation-iteration-count: 20;
   position: relative;
   animation-name: example;
-  animation-duration: 15s
+  animation-duration: 15s;
+  
 }
 
+@keyframes color {
+  from {background-color: #ffffff;}
+  to {background-color: #18d14d;}
+}
 .head {
   align-self: center;
-  font-size: 8vw;
+  font-size: 5vw;
   border: 2.7px solid #18d14d ;
   border-radius: 8px;
   border-style:outset;
@@ -42,6 +48,8 @@ body {
   background: #18d14d;
   font-family: 'DotGothic16', sans-serif;
   box-shadow: 0 8px 16px 0 rgba(16, 218, 9, 0.329), 0 6px 20px 0 rgba(7, 231, 7, 0.404);
+  animation-name: color;
+  animation-duration: 4s;
 }
 .header {
   display: flex;
@@ -81,13 +89,13 @@ body {
   box-shadow: 0 8px 16px 0 rgba(4, 241, 4, 0.562), 0 6px 20px 0 rgba(5, 255, 5, 0.623);
   border: .5vw solid #18d14d;
   border-radius: 4px;
-  font-size: 4.5vw;
+  font-size: 30px;
   outline: none;
   font-family: 'DotGothic16', sans-serif;
 }
 
 .input-label {
-  font-size: 5vw;
+  font-size: 40px;
 }
 
 .btn {
@@ -98,7 +106,7 @@ body {
   border-radius: 4px;
   background-color: #18d14d;
   box-shadow: 0 8px 16px 0 rgba(28, 226, 21, 0.308), 0 6px 20px 0 rgba(10, 255, 1, 0.404);
-
+  text-shadow: 3px 3px rgb(108, 95, 110);
 }
 
 .container-about {
@@ -112,7 +120,7 @@ body {
 }
 
 .about-text {
-  font-size: 4vw;
+  font-size: 25px;
   padding: 2vw;
   color: #18d14d;
   text-align: center;
@@ -123,7 +131,7 @@ body {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  font-size: 6vw;
+  font-size: 3vw;
   margin: 1vw 8vw;
 }
 
@@ -170,7 +178,7 @@ body {
 }
 
 .work-image {
-  width: 50%;
+  width: 30%;
   margin: 5vh;
   margin-top: 2vh;
   border-radius: 1%;
@@ -180,7 +188,7 @@ body {
 }
 
 .work-image:hover {
-  width: 60%;
+  width: 40%;
   transition-duration: 0.5s;
 }
 
