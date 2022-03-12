@@ -179,16 +179,23 @@ body {
   margin-top: 8vh;
 
 }
-
+@keyframes shade {
+  0% {box-shadow: 0 30px 50px 0 #18d14d;}
+  50% {box-shadow: 0 10px 30px 0 white;}
+  100% {box-shadow: 0 30px 50px 0 #18d14d;}
+}
 .work-image {
   width: 30%;
   margin: 5vh;
   margin-top: 2vh;
-  border-radius: 1%;
   padding: 0px;
   position: relative;
   box-shadow: 0 30px 50px 0 rgba(4, 241, 4, 0.562), 0 6px 20px 0 rgba(5, 255, 5, 0.623);
+  animation-name: shade;
+  animation-duration: 10s;
+  animation-iteration-count: 50;
 }
+
 
 .work-image:hover {
   width: 40%;
@@ -238,6 +245,6 @@ body {
     border-radius: 2px;
     background-color: #18d14d;
     box-shadow: 0 8px 16px 0 rgba(28, 226, 21, 0.308), 0 6px 20px 0 rgba(10, 255, 1, 0.404);
-    text-shadow: 3px 3px rgb(108, 95, 110);
+    text-shadow: 1px 1px rgb(108, 95, 110);
   }
 }
