@@ -34,6 +34,11 @@ const Projects = ({ sites }) => {
             github: "https://github.com/trip6love/Challenge-01",
             deployed: "https://trip6love.github.io/Challenge-01/",
         },
+        {
+            name:"" ,
+            github:"https://github.com/trip6love/art-club" ,
+            deployed:"https://art-mania-club.herokuapp.com/"
+        }
     ])
 
     const recentSites = pics.filter(pic => pic.sites === sites);
