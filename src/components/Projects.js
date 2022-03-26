@@ -9,11 +9,7 @@ const Projects = ({ sites }) => {
             github: "https://github.com/trip6love/Challenge-03",
             deployed: "https://trip6love.github.io/Challenge-03/",
         },
-        {
-            name: "",
-            github: "https://github.com/trip6love/Timed-Coding-Quiz",
-            deployed: "https://trip6love.github.io/Timed-Coding-Quiz/",
-        },
+       
         {
             name: "",
             github: "https://github.com/trip6love/Work-Day-Scheduler",
@@ -29,11 +25,7 @@ const Projects = ({ sites }) => {
             github: "https://github.com/trip6love/Noted-Pro",
             deployed: "https://noted-pro.herokuapp.com",
         },
-        {
-            name: "",
-            github: "https://github.com/trip6love/Challenge-01",
-            deployed: "https://trip6love.github.io/Challenge-01/",
-        },
+        
         {
             name:"" ,
             github:"https://github.com/trip6love/art-club" ,
