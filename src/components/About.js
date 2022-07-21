@@ -9,8 +9,8 @@ function About() {
                         alt="Error Profile" 
                         src={pic} className="picture"
                     ></img>
-            <p className="about-text">Hello! My name is Lane Byers and I am currently enrolled at the UNC Coding Bootcamp. 
-            This portfolio was created with a new skill; REACT! I want to continue my passions as a web developer, specifically front end. For future work 
+            <p className="about-text">Hello! My name is Lane Byers and I am currently a freelance website developer. 
+            Here you will be able to find current work of mine while I work on new projects. For any future graphic or web design work 
             please feel free to contact me! 
             </p>
         </div>

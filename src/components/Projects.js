@@ -15,22 +15,15 @@ const Projects = ({ sites }) => {
             github: "https://github.com/trip6love/Work-Day-Scheduler",
             deployed: "https://trip6love.github.io/Work-Day-Scheduler/",
         },
-        {
-            name: "",
-            github: "https://github.com/trip6love/where-is-the-money",
-            deployed: "https://git.heroku.com/pure-bayou-47216.git",
-        },
-        {
-            name: "",
-            github: "https://github.com/trip6love/Noted-Pro",
-            deployed: "https://noted-pro.herokuapp.com",
-        },
         
         {
-            name:"" ,
-            github:"https://github.com/trip6love/art-club" ,
-            deployed:"https://art-mania-club.herokuapp.com/"
-        }
+            name: "",
+            github: "https://github.com/khaoulaja/game-collection",
+            deployed: "https://afternoon-reef-79835.herokuapp.com",
+        },
+        
+        
+        
     ])
 
     const recentSites = pics.filter(pic => pic.sites === sites);
