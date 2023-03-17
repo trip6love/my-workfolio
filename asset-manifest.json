@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/my-workfolio/static/css/main.3d6bf56b.css",
-    "main.js": "/my-workfolio/static/js/main.add3d838.js",
+    "main.css": "/my-workfolio/static/css/main.d78c1165.css",
+    "main.js": "/my-workfolio/static/js/main.4697ae21.js",
     "static/js/787.2e19b111.chunk.js": "/my-workfolio/static/js/787.2e19b111.chunk.js",
-    "static/media/3.png": "/my-workfolio/static/media/3.ade307f58d0646a3ab65.png",
+    "static/media/2.png": "/my-workfolio/static/media/2.032aaf5364c745883e29.png",
+    "static/media/4.png": "/my-workfolio/static/media/4.c8471c3e1d723424a7cb.png",
+    "static/media/1.png": "/my-workfolio/static/media/1.ade307f58d0646a3ab65.png",
+    "static/media/3.png": "/my-workfolio/static/media/3.39cb8121d671d90d9f87.png",
     "static/media/error.png": "/my-workfolio/static/media/error.0005514bc13358c73d3c.png",
-    "static/media/2.png": "/my-workfolio/static/media/2.991cdca76cf8dce7005e.png",
-    "static/media/1.png": "/my-workfolio/static/media/1.273378b8cabc61a3add8.png",
     "static/media/stack.png": "/my-workfolio/static/media/stack.c786584551f8819b8502.png",
     "index.html": "/my-workfolio/index.html",
-    "main.3d6bf56b.css.map": "/my-workfolio/static/css/main.3d6bf56b.css.map",
-    "main.add3d838.js.map": "/my-workfolio/static/js/main.add3d838.js.map",
+    "main.d78c1165.css.map": "/my-workfolio/static/css/main.d78c1165.css.map",
+    "main.4697ae21.js.map": "/my-workfolio/static/js/main.4697ae21.js.map",
     "787.2e19b111.chunk.js.map": "/my-workfolio/static/js/787.2e19b111.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d6bf56b.css",
-    "static/js/main.add3d838.js"
+    "static/css/main.d78c1165.css",
+    "static/js/main.4697ae21.js"
   ]
 }
